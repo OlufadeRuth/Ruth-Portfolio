@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruth Olufade || Cybersecurity & Web Developer</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    <meta name="description" content="MyStory Modern Personal Portfolio HTML5 Template" />
+
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/icon-font.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/custom-animate.css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome-all.css" />
+    <link rel="stylesheet" href="assets/css/jarallax.css" />
+    <link rel="stylesheet" href="assets/css/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/odometer.min.css" />
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body class="custom-cursor">
+
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <!--Start Preloader-->
+    <div class="loader js-preloader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!--End Preloader-->
+
+
+
+    <div class="chat-icon"><button type="button" class="chat-toggler"><i class="fa fa-comment"></i></button></div>
+    <!--Chat Popup-->
+    <div id="chat-popup" class="chat-popup">
+        <div class="popup-inner">
+            <div class="close-chat"><i class="fa fa-times"></i></div>
+            <div class="chat-form">
+                <p>Please fill out the form below and we will get back to you as soon as possible.</p>
+                <form action="assets/inc/sendemail.php" method="POST" class="contact-form-validated">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Text" required></textarea>
+                    </div>
+                    <div class="form-group message-btn">
+                        <button type="submit" class="thm-btn">
+                            <span>Submit Now</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="result"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Start sidebar widget content -->
+    <div class="xs-sidebar-group info-group info-sidebar">
+        <div class="xs-overlay xs-bg-black"></div>
+        <div class="xs-sidebar-widget">
+            <div class="sidebar-widget-container">
+                <div class="widget-heading">
+                    <a href="#" class="close-side-widget">X</a>
+                </div>
+                <div class="sidebar-textwidget">
+                    <div class="sidebar-info-contents">
+                        <div class="content-inner">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/images/resources/logo-2.png" alt="" /></a>
+                            </div>
+                            <div class="content-box">
+                                <h4>About Us</h4>
+                                <div class="inner-text">
+                                    <p> Passionate cybersecurity student with a growing interest in web development.
+                                        I enjoy building responsive websites, learning new technologies, and turning 
+                                        ideas into functional digital experiences.
+                                    </p>
+                                </div>
+                            </div>
+
+                            
+
+                            <div class="sidebar-contact-info">
+                                <h4>Contact Info</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span class="icon-location"></span> No. 85 Udo Ekpo Mpo street, Uyo
+                                    </li>
+                                    <li>
+                                        <span class="icon-call"></span>
+                                        <a href="tel:08067518733">+8067518733</a>
+                                    </li>
+                                    <li>
+                                        <span class="icon-envelope"></span>
+                                        <a href="mailto:bunmiolufade2@gmail.com">bunmiolufade2@gmail.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="thm-social-link1">
+                                <ul class="social-box list-unstyled">
+                                    <li>
+                                        <a href="#"><i class="icon-linkedin" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/icon/github.png" style="height: 20px; width: 20px;" alt=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End sidebar widget content -->
+
+
+    <div class="page-wrapper">
+        <header class="main-header">
+            <nav class="main-menu">
+                <div class="main-menu__wrapper">
+                    <div class="container">
+                        <div class="main-menu__wrapper-inner">
+                            <div class="main-header__left">
+                                <div class="main-menu__logo-style1">
+                                    <a href="index.html">
+                                        <img src="assets/images/resources/logo-1.png" alt="Logo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="main-header__middle">
+                                <div class="main-menu__main-menu-box">
+                                    <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                    <ul class="main-menu__list">
+                                        <li>
+                                            <a href="index.html">Home </a>     
+                                        </li>
+                                        <li>
+                                            <a href="about.html">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="projects.html">Project</a>                                           
+                                        </li>
+                                        <li>
+                                            <a href="Academic-planner.html">Academic Planner</a>
+                                        </li>
+                                       
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="main-header__right">
+                               
+                                <div class="main-menu__nav-sidebar-icon">
+                                    <a class="navSidebar-button" href="#">
+                                        <i class="icon-text"></i>
+                                    </a>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+
+
+        <!-- Banner One Start -->
+        <section class="banner-one">
+            <div class="banner-one__shape"></div>
+            <div class="banner-one__bg1"
+                style="background-image: url(assets/images/pattern/banner-one-bg-pattern.jpg);">
+            </div>
+            <div class="container">
+                <div class="banner-one__inner">
+                    <div class="banner-one__content wow fadeInLeft" data-wow-delay="100ms">
+                        <div class="banner-one__content-sub-title">
+                            <h4>My Digital Space</h4>
+                        </div>
+                        <div class="banner-one__content-title">
+                            <h2><span>Olufade Ruth Bunmi</span><br> Full Stack Developer</h2>
+                        </div>
+                        <div class="banner-one__content-text">
+                            <p>
+                                A passionate Web Developer crafting modern and responsive websites.
+                                I turn ideas into interactive digital experiences.
+                            </p>
+                        </div>
+                        <ul class="banner-one__content-list list-unstyled">
+                            <li>
+                                <span>Phone :</span>
+                                <p><a href="tel:08067518733">+234 8067518733</a></p>
+                            </li>
+                            <li>
+                                <span>Email :</span>
+                                <p><a href="bunmiolufade2@gmail.com">bunmiolufade2@gmail.com</a></p>
+                            </li>
+                            <li class="last">
+                                <span>Address :</span>
+                                <p>No 85, Udo Ekpo Mpo street, Uyo</p>
+                            </li>
+                        </ul>
+                        <div class="banner-one__content-btn">
+                            <a href="contact.html" class="thm-btn">
+                                <span>Hire Me</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-one__img">
+                <div class="banner-one__img-shape"></div>
+                <div class="banner-one__img-bg"
+                    style="background-image: url(assets/images/pattern/banner-one-bg-pattern-right.jpg);">
+                </div>
+                <div class="banner-one__img-inner wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
+                    <img src="assets/images/resources/newr.png" alt="Image">
+                </div>
+                <div class="banner-one__shape-one"
+                    style="background-image: url(assets/images/shapes/banner-one-shape-1.gif);"></div>
+            </div>
+            <ul class="banner-one__social list-unstyled">
+                <li>
+                    <a href="#"><i class="icon-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/images/icon/github.png" style="height: 30px; width: 30px;" alt=""></a>
+                </li>
+            </ul>
+        </section>
+        <!--Banner One End -->
+
+        <!-- Start Scroling Text One -->
+        <section class="scroling-text-one">
+            <div class="scroling-text-one__wrap">
+                <ul class="scroling-text-one__list list-unstyled marquee_mode">
+                    <li>
+                        <div class="scroling-text-one__inner">
+                            <img src="assets/images/icon/star1.png" alt="Icon">
+                            <h2>Web Design</h2>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroling-text-one__inner">
+                            <img src="assets/images/icon/star1.png" alt="Icon">
+                            <h2>Web Development</h2>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="scroling-text-one__inner">
+                            <img src="assets/images/icon/star1.png" alt="Icon">
+                            <h2>Cybersecurity</h2>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- End Scroling Text One -->
+
+        <!-- Start About One -->
+        <section class="about-one">
+            <div class="about-one__shape"></div>
+            <div class="about-one__shape2"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms">
+                        <div class="about-one__img1">
+                            <div class="about-one__img1-inner">
+                                <img src="assets/images/resources/about-v1-1.jpg" alt="Image">
+                            </div>
+                            <div class="about-one__img1-content">
+                                <h3>Building lasting relationships by delivering quality service and exceeding expectations</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms">
+                        <div class="about-one__img2">
+                            <div class="about-one__img2-content">
+                                <h3>Turning ideas into successful outcomes through innovation, collaboration, and excellence</h3>
+                            </div>
+                            <div class="about-one__img2-inner">
+                                <img src="assets/images/resources/about-v1-2.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="about-one__content">
+                            <div class="section-title">
+                                <div class="section-title__tagline">
+                                    <p>About Us</p>
+                                    <div class="line2"></div>
+                                </div>
+                                <h2 class="section-title__title">Who Am I ?</h2>
+                            </div>
+                            <div class="about-one__content-title">
+                                <H5>
+                                    I’m Olufade Ruth Bunmi, a creative web developer driven by design and inspired by
+                                    technology. I specialize in building modern, responsive, and engaging digital
+                                    experiences that tell stories and connect with people.
+                                </H5>
+                            </div>
+                            <div class="about-one__content-text">
+                                <ul>
+                                    <li>
+                                        <span>Name</span>: Olufade Ruth Bunmi
+                                    </li>
+                                    <li>
+                                        <span>Address:</span>: No 85, Udo Ekpo Mpo street, Uyo Akwaibom state
+                                    </li>
+                                    <li>
+                                        <span>Email</span>:
+                                        <a href="mailto:bunmiolufade2@gmail.com">bunmiolufade2@gmail.com</a>
+                                    </li>
+                                    <li>
+                                        <span>Phone</span>: <a href="tel:08067518733">+234 8067518733</a>
+                                    </li>
+                                    <li>
+                                        <span>Language</span>: English
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="about-one__content-btn">
+                                <a href="about.html" class="thm-btn">
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About One -->
+
+        <!--Start project One-->
+        <section class="services-one">
+            <div class="container">
+                <div class="services-one__top">
+                    <div class="section-title">
+                        <div class="section-title__tagline">
+                            <p>Projects</p>
+                            <div class="line2"></div>
+                        </div>
+                        <h2 class="section-title__title">The Ease-Projeect Process</h2>
+                    </div>
+                    <div class="services-one__top-btn">
+                        <a href="projects.html" class="thm-btn">
+                            <span>View All Projects</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Start project One Single -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms">
+                        <div class="services-one__single">
+                            <div class="services-one__single-icon">
+                                <i class="icon-web-design"></i>
+                            </div>
+                            <div class="services-one__single-content">
+                                <div class="services-one__single-text">
+                                    <h4><a href="projects.html">Cybersecurity</a></h4>
+                                    <p>I explore cybersecurity concepts by performing security testing,and ethical hacking
+                                        in controlled environments.</p>
+                                </div>
+                                <div class="services-one__single-btn">
+                                    <a href="projects.html" class="thm-btn">
+                                        <span>View Project</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start project One Single -->
+                    <!-- Start project One Single -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="300ms">
+                        <div class="services-one__single">
+                            <div class="services-one__single-icon">
+                                <i class="icon-user-experience"></i>
+                            </div>
+                            <div class="services-one__single-content">
+                                <div class="services-one__single-text">
+                                    <h4><a href="projects.html">Web development (python)</a></h4>
+                                    <p>I build responsive and user-friendly websites using HTML, CSS, and JavaScript, focusing on
+                                        clean design and modern web standards.</p>
+                                </div>
+                                <div class="services-one__single-btn">
+                                    <a href="projects.html" class="thm-btn">
+                                        <span>View project</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start project One Single -->
+                    <!-- Start project One Single -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="400ms">
+                        <div class="services-one__single">
+                            <div class="services-one__single-icon">
+                                <i class="icon-front-end-programming"></i>
+                            </div>
+                            <div class="services-one__single-content">
+                                <div class="services-one__single-text">
+                                    <h4><a href="projects.html">Web Design</a></h4>
+                                    <p>I create clean, responsive, and visually appealing websites that provide an engaging
+                                        and user-friendly experience.</p>
+                                </div>
+                                <div class="services-one__single-btn">
+                                    <a href="projects.html" class="thm-btn">
+                                        <span>View project</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start project One Single -->
+                </div>
+            </div>
+        </section>
+        <!--End project One-->
+
+
+        <!-- Start Resume One -->
+        <section class="resume-one">
+            <div class="container">
+                <div class="section-title text-center">
+                    <div class="section-title__tagline">
+                        <div class="line1"></div>
+                        <p>Resume</p>
+                        <div class="line2"></div>
+                    </div>
+                    <h2 class="section-title__title">Our Resume</h2>
+                </div>
+                <div class="row">
+                    <!-- Start Resume One Single -->
+                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="100ms">
+                        <div class="resume-one__single">
+                            <div class="resume-one__single-title">
+                                <h2>Education :-</h2>
+                            </div>
+                            <ul class="resume-one__single-list">
+                                <li class="resume-one__single-item">
+                                    <h5>Bachelor of Science in Cybersecurity</h5>
+                                    <p class="one">Miva Open University — Ongoing</p>
+                                    <p class="two">
+                                        Focused on cybersecurity, networking, ethical hacking, and securing computer systems
+                                        through hands-on learning and practical projects.
+                                    </p>
+                                </li>
+                                <li class="resume-one__single-item">
+                                    <h5>Front-End Web Development</h5>
+                                    <p class="one">Amstrong Tech Academy — Ongoing</p>
+                                    <p class="two">
+                                        Learning HTML, CSS, JavaScript, responsive web design, flexbox, Grid, and modern
+                                        web development through practical projects.
+                                    </p>
+                                </li>
+                                <li class="resume-one__single-item">
+                                    <h5>Python Programming</h5>
+                                    <p class="one">Amstrong Tech Academy — Ongoing</p>
+                                    <p class="two">
+                                        Developing programming skills in python, including scripting, problem-solving,
+                                        automation, and software development fundamentals.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Resume One Single -->
+                    <!-- Start Resume One Single -->
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="100ms">
+                        <div class="resume-one__single">
+                            <div class="resume-one__single-title">
+                                <h2>Experienxe :-</h2>
+                            </div>
+                            <ul class="resume-one__single-list">
+                                <li class="resume-one__single-item">
+                                    <h5>Cybersecurity Practice</h5>
+                                    <p class="one">Miva Open University — Ongoing</p>
+                                    <p class="two">
+                                        Gaining hands-on experience in networking, ethical hacking, and system secuity
+                                        through practical labs and coursework.
+                                </li>
+                                <li class="resume-one__single-item">
+                                    <h5>Web Development</h5>
+                                    <p class="one">Amstrong Tech Academy — Ongoing</p>
+                                    <p class="two">
+                                        Building responsive web applications and improving front-end development
+                                        skills through practical classroom projects.
+                                    </p>
+                                </li>
+                                <li class="resume-one__single-item">
+                                    <h5>Front-End Web Developer</h5>
+                                    <p class="one">Personal projects — 2026-present</p>
+                                    <p class="two">
+                                        Designed and developed responsive websites using HTML, CSS, and JavaScript, applying flexbox,
+                                        Grid, animations, and mobile-first design.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Resume One Single -->
+                </div>
+            </div>
+        </section>
+        <!-- End Resume One -->
+
+
+        <!-- Start Faq Two -->
+        <section class="faq-two">
+            <div class="container">
+                <div class="section-title text-center">
+                    <div class="section-title__tagline">
+                        <div class="line1"></div>
+                        <p>Faq</p>
+                        <div class="line2"></div>
+                    </div>
+                    <h2 class="section-title__title">Have any Questions?</h2>
+                </div>
+                <!-- Start Faq Two -->
+                <div class="faq-two__content">
+                    <div class="accrodion-grp faq-two-accrodion" data-grp-name="faq-two-accrodion-1">
+                        <div class="accrodion active">
+                            <div class="accrodion-title">
+                                <h4>Q1. What services do you offer?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>
+                                        I specialize in web design, WordPress development, and front-end solutions.
+                                        I also provide UI/UX design, website optimization, and maintenance support
+                                        for clients looking for long-term collaboration.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accrodion">
+                            <div class="accrodion-title">
+                                <h4>Q2. What are your payment terms?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>
+                                        Usually, I require a 50% upfront payment before starting and the remaining
+                                        50% upon project completion. For larger projects, milestone-based payments
+                                        can be arranged.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accrodion">
+                            <div class="accrodion-title">
+                                <h4>Q3. How can I get started?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>
+                                        You can contact me through the contact form on my website or email me
+                                        directly. Share your project details, and I’ll get back to you with a free
+                                        quote and timeline.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accrodion">
+                            <div class="accrodion-title">
+                                <h4>Q4. What tools and technologies do you use?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>
+                                        I use tools like Figma, Adobe XD, and Photoshop for design. For development,
+                                        I primarily work with WordPress, Elementor, HTML, CSS, JavaScript, and
+                                        Bootstrap.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Faq Two -->
+            </div>
+        </section>
+        <!-- End Faq Two -->
+
+
+        <!-- Start Contact One -->
+        <section class="contact-one">
+            <div class="container">
+                <div class="contact-one__top">
+                    <div class="section-title">
+                        <div class="section-title__tagline">
+                            <p>Contact Me</p>
+                            <div class="line2"></div>
+                        </div>
+                        <h2 class="section-title__title">Get in Touch Now</h2>
+                    </div>
+                    <div class="contact-one__top-text">
+                        <p>Whether it's design, development, or advice, I’m here to help. Send me a note and
+                            let’s start a conversation.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6 wow fadeInLeft" data-wow-delay="100ms">
+                        <div class="contact-one__info">
+                            <ul class="contact-one__info-list list-unstyled">
+                                <li>
+                                    <div class="contact-one__info-icon">
+                                        <i class="icon-call"></i>
+                                    </div>
+                                    <div class="contact-one__info-text">
+                                        <p>Have Question ?</p>
+                                        <h3>Free <a href="tel:08067518733">+(234) 8067518733</a></h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="contact-one__info-icon">
+                                        <i class="icon-envelope"></i>
+                                    </div>
+                                    <div class="contact-one__info-text">
+                                        <p>Write Email</p>
+                                        <h3><a href="mailto:bunmiolufade2@gmail.com">bunmiolufade2@gmail.com</a>
+                                        </h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="contact-one__info-icon">
+                                        <i class="icon-location"></i>
+                                    </div>
+                                    <div class="contact-one__info-text">
+                                        <p>Our Location</p>
+                                        <h3>Akwaibom state, uyo Nigeria</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6 wow fadeInRight" data-wow-delay="100ms">
+                        <div class="contact-one__form">
+                            <form id="contact-one_form" class="contact-form-validated" action="assets/inc/sendemail.php"
+                                method="post" novalidate="novalidate">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <div class="contact-one__input-box">
+                                            <input type="text" name="name" placeholder="Name..">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <div class="contact-one__input-box">
+
+                                            <input type="email" name="Email" placeholder="Email..">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <div class="contact-one__input-box">
+                                            <input type="text" name="Phone" placeholder="Phone..">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <div class="contact-one__input-box">
+                                            <div class="select-box">
+                                                <select class="selectmenu wide">
+                                                    <option selected>Select Service</option>
+                                                    <option>Web Design</option>
+                                                    <option>Web Development (Python)</option>
+                                                    <option>Cybersecurity</option>
+                                                    <option>Network Security Analysis</option>
+                                                    <option>Python Programming</option>
+                                                    <option>Digital Forencis</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="contact-one__input-box">
+                                            <textarea name="message" placeholder="Message.."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contact-one__btn-box">
+                                   <a href="https://wa.me/2348067518733">
+                                       <button type="submit" class="thm-btn">
+                                            <span>Send Message</span>
+                                            <i class="fas fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact One -->
+
+
+        <!-- Start Social Media One -->
+        <section class="social-media-one">
+            <div class="container">
+                <div class="social-media-one__title text-center">
+                    <h2>follow us</h2>
+                </div>
+                <div class="row">
+                    <!-- Start Social Media One Single -->
+                    <div class="col-xl-2 col-lg-4 col-md-4">
+                        <!--<div class="social-media-one__single">
+                            <div class="social-media-one__single-img">
+                                <img src="assets/images/resources/social-media-v1-1.jpg" alt="Image">
+                                <div class="social-media-one__single-img-text">
+                                    <p>Facebook</p>
+                                    <a href="https://www.facebook.com/">
+                                        www.facebook.com[Your]
+                                    </a>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                    <!-- End Social Media One Single -->
+                    <!-- Start Social Media One Single -->
+                    <div class="col-xl-2 col-lg-4 col-md-4">
+                        <div class="social-media-one__single">
+                            <div class="social-media-one__single-img">
+                                <img src="assets/images/resources/social-media-v1-2.jpg" alt="Image">
+                                <div class="social-media-one__single-img-text">
+                                    <p>github</p>
+                                    <a href="https://www.github.com/">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Social Media One Single -->
+                    <!-- Start Social Media One Single -->
+                    <div class="col-xl-2 col-lg-4 col-md-4">
+                        <div class="social-media-one__single">
+                            <div class="social-media-one__single-img">
+                                <img src="assets/images/resources/social-media-v1-3.jpg" alt="Image">
+                                <div class="social-media-one__single-img-text">
+                                    <p>Linkedin</p>
+                                    <a href="https://www.linkedin.com">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Social Media One Single -->
+                    <!-- Start Social Media One Single -->
+                    <div class="col-xl-2 col-lg-4 col-md-4">
+                        <div class="social-media-one__single">
+                            <div class="social-media-one__single-img">
+                                <img src="assets/images/resources/social-media-v1-4.jpg" alt="Image">
+                                <div class="social-media-one__single-img-text">
+                                    <p>github</p>
+                                    <a href="https://ww.github.com">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Social Media One Single -->
+                    <!-- Start Social Media One Single -->
+                    <div class="col-xl-2 col-lg-4 col-md-4">
+                        <div class="social-media-one__single">
+                            <div class="social-media-one__single-img">
+                                <img src="assets/images/resources/social-media-v1-3.jpg" alt="Image">
+                                <div class="social-media-one__single-img-text">
+                                    <p>LinkedIn</p>
+                                    <a href="https://www.linkedin.com/">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Social Media One Single -->
+                    <!-- Start Social Media One Single -->
+                    <div class="col-xl-2 col-lg-4 col-md-4">
+                        <!--<div class="social-media-one__single">
+                            <div class="social-media-one__single-img">
+                                <img src="assets/images/resources/social-media-v1-6.jpg" alt="Image">
+                                <div class="social-media-one__single-img-text">
+                                    <p>Google</p>
+                                    <a href="https://www.google.com/">
+                                        www.google.com[Your]
+                                    </a>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                    <!-- End Social Media One Single -->
+                </div>
+            </div>
+        </section>
+        <!-- End Social Media One -->
+
+
+        <!--Site Footer Start-->
+        <footer class="site-footer">
+            <div class="site-footer__pattren"
+                style="background-image: url(assets/images/backgrounds/site-footer-pattren1.jpg);"></div>
+            <div class="site-footer__shape"></div>
+            <div class="site-footer__shape-2"></div>
+            <div class="container">
+                <div class="site-footer__content text-center">
+                    <div class="site-footer__shpae-3"
+                        style="background-image: url(assets/images/shapes/site-footer-shape-3.gif);"></div>
+                    <div class="site-footer__logo">
+                        <div class="site-footer__logo-shape"></div>
+                        <a href="index.html">
+                            <img src="assets/images/resources/logo-1.png" alt="Logo">
+                        </a>
+                        <div class="site-footer__logo-shape"></div>
+                    </div>
+                    <div class="site-footer__contact">
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="icon">
+                                    <i class="icon-envelope"></i>
+                                </div>
+                                <div class="text">
+                                    <p>Send your message to my inbox.</p>
+                                    <h4>
+                                        <a class="bdr" href="mailto:bunmiolufade2@gmail.com">
+                                            bunmiolufade2@gmail.com
+                                        </a>
+                                    </h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="site-footer__bottom">
+                        <div class="site-footer__copyright">
+                            <p>
+                                © 2026 Portfolio of <a href="index.html">"Olufade Ruth Bunmi"</a> — All rights
+                                reserved.
+                            </p>
+                            <p>
+                                Designed By Olufade Ruth Bunmi
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <!--Site Footer End-->
+
+
+
+
+    </div><!-- /.page-wrapper -->
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-2.png" width="150"
+                        alt="" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:bunmiolufade2@gmail.com">bunmiolufade2@gmail.com</a>
+                </li>
+                <li>
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:08067518733">+234 8067518733</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="#" class="fab fa-pinterest-p"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+
+
+
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <!-- Search Popup -->
+    <div class="search-popup">
+        <div class="color-layer"></div>
+        <button class="close-search"><span class="far fa-times fa-fw"></span></button>
+        <form method="post" action="blog.html">
+            <div class="form-group">
+                <input type="search" name="search-field" value="" placeholder="Search Here" required="">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+        </form>
+    </div>
+    <!-- End Search Popup -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+        <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
+        <span class="scroll-to-top__text"> Go Back Top</span>
+    </a>
+
+
+    <script src="assets/js/jquery-latest.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jarallax.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/marquee.min.js"></script>
+    <script src="assets/js/jquery-sidebar-content.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/gsap/gsap.js"></script>
+    <script src="assets/js/gsap/ScrollTrigger.js"></script>
+    <script src="assets/js/gsap/SplitText.js"></script>
+    <script src="assets/js/lenis.min.js"></script>
+
+
+
+
+    <!-- template js -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
